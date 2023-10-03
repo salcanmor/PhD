@@ -7,6 +7,8 @@ In this repository, you will find the very first attempt to get an automatic inf
 This software is based on [YolactEdge: Real-time Instance Segmentation on the Edge](https://github.com/haotian-liu/yolact_edge) by Haotian Liu and Rafael A. Rivera-Soto. To install all the depencies, please go the that github repo.
 They provide a [Colab Notebook](https://colab.research.google.com/drive/1Mzst4q4Y-SQszIHhlEv1CkT4hwja4GNw?usp=sharing) with a live demo to learn about basic usage to start learning how to use it, so you can use this project on your own device or on the cloub (Google Colab). They also provide another [Colab Notebook](https://colab.research.google.com/drive/1nEZAYnGbF7VetqltAlUTyAGTI71MvPPF?usp=sharing) with TensorRT environment configuration on Colab, just in case you are interested in evaluating YolactEdge with TensorRT. Those 2 Colab notebooks are very good starting points to understand this project.
 
+### Note: In the folder *videos*, you can find four videos. Two of them are input videos (raw), and the other two are the respective processed videos
+
 Usage. To test any video, use the following command.
 
 python3 eval.py --trained_model yolact_edge_54_800000.pth --score_threshold=0.3 --top_k=100 --video_multiframe=2 --trt_batch_size 2 --video=tennis_video.mp4 --use_fp16_tensorrt --display
