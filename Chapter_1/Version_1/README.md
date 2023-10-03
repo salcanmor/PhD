@@ -13,17 +13,24 @@ Where:
 
 **--trained_model** <--- Trained state_dict file path to open. If "interrupt", this will open the interrupt file
 
+
 **--score_threshold** <---  Detections with a score under this threshold will not be considered. This currently only works in *display* mode
+
 
 **--top_k** <--- Further restrict the number of predictions to parse
 
+
 **--video_multiframe** <--- The number of frames to evaluate in parallel to make videos play at higher fps
+
 
 **--trt_batch_size** <--- Maximum batch size to use during TRT conversion. This has to be greater than or equal to the batch size the model will take during inferece
 
+
 **--video** <--- A path to a video to evaluate on. Passing in a number will use that index webcam. If the **:output** ending is added, the processed video is saved
 
+
 **--use_fp16_tensorrt** <---  This replaces all TensorRT INT8 optimization with FP16 optimization when specified
+
 
 **--display** <--- Whether or not to display masks over bounding boxes
  
