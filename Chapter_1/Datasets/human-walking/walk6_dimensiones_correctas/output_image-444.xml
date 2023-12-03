@@ -1,0 +1,26 @@
+<annotation>
+	<folder>walk6_dimensiones_correctas</folder>
+	<filename>output_image-444.jpg</filename>
+	<path>C:\Users\Salva\Documents\trackers\VIDEOS_WALK\walk6_dimensiones_correctas\output_image-444.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>540</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>jugador</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>444</xmin>
+			<ymin>213</ymin>
+			<xmax>474</xmax>
+			<ymax>290</ymax>
+		</bndbox>
+	</object>
+</annotation>
