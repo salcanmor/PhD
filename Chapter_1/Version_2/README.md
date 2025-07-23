@@ -1,4 +1,4 @@
-# PhD chapter 1. Version 3. 
+# PhD chapter 1. Version 2. 
 
 In this repository, you will find the very third attempt to get an automatic information collection system in tennis matches.
 
